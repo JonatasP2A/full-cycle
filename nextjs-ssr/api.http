@@ -1,0 +1,13 @@
+GET http://localhost:8000/products
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "name": "Product 7",
+  "description": "This is a product description",
+  "image_url": "http://via.placeholder.com/100x400",
+  "price": 100,
+  "category_id": 1
+}
